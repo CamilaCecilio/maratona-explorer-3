@@ -1,0 +1,95 @@
+/*GLOBAL*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*Body fundo*/
+body{
+  background-color: #FFEDD5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Cabeçalho*/
+header{
+  /*Máximo da caixa, até onde ela pode ir*/
+  max-width: 300px;
+  margin: 0 auto;
+  /*alinhamento de texto*/
+  text-align: center;
+  /*em cima e embaixo 32px e ao lado 0*/
+  padding: 32px 0;
+
+}
+
+/*Cabeçalho - RocketCoffee*/
+header h1{
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+header h1 span{
+  color: #995000;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*seções na ul*/
+section{
+  max-width: 300px;
+  margin: 0 auto;
+
+}
+
+/*Segundo Título - Brunch e Bebidas*/
+section h2{
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  text-align: center;
+  /*espaço abaixo*/
+  margin-bottom: 24px;
+  font-size: 18px;
+  }
+
+/*Lista*/
+ ul li{
+   margin-bottom: 16px;
+   /*os filhos da caixa do pai ficaram um do lado do outro*/
+   display:flex;
+ } 
+
+ /*lista*/
+ul{
+  list-style: none;
+}
+
+/*Lista = Produtos - Waffle, Arroz e etc*/
+li .product{
+  max-width: 240px;
+}
+
+.product h3{
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px
+}
+
+h1, h2, h3, .price {
+  font-family: 'Roboto Serif', serif;
+  color: #2D2C2A;
+  text-transform: uppercase;
+  ;
+}
+.product p{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  /*separação da linha, entre elas*/
+  line-height: 21px;
+}
+}
